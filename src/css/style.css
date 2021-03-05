@@ -1,0 +1,43 @@
+@font-face { font-family:FatCow;src: url('FatCow-min.ttf'); }
+@font-face { font-family:opensaucesans;src: url('opensaucesans.ttf'); }
+
+body {
+    height: 100%;
+    font-family: opensaucesans;
+    margin: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#contents {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    width: 100%;
+}
+
+canvas {
+    height: 100%;
+    width: 100%;
+}
+
+#secondaryCanvas {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+.home {
+    font-family: FatCow;
+}
+
+.textDimensionCalculation {
+    font-family: opensaucesans;
+    font-size: 30px;
+    height: auto;
+    position: absolute;
+    visibility: hidden;
+    white-space: nowrap;
+    width: auto;
+}
